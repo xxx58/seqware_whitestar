@@ -6,7 +6,7 @@
 # Volume mount \datastore to persist the contents of your workflows
 # ex: docker run --privileged  -h master --rm -t -i -v `pwd`/datastore:/datastore -v `pwd`/workflows/Workflow_Bundle_dockerHelloWorld_1.0-SNAPSHOT_SeqWare_1.1.0-rc.0:/workflow  seqware/seqware_whitestar
 
-FROM ubuntu:12.04
+FROM ubuntu:16.04
 MAINTAINER Denis Yuen <denis.yuen@oicr.on.ca>
 
 # use ansible to create our dockerfile, see http://www.ansible.com/2014/02/12/installing-and-building-docker-with-ansible
